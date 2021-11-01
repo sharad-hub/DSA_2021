@@ -17,9 +17,8 @@
 
         public static LinkedList RemoveDuplicatesFromLinkedList(LinkedList linkedList)
         {
-            // Write your code here.
             // 1,2,3,4
-            // var headNode= linkedList;
+          
             var node = linkedList;
 
 
@@ -29,13 +28,7 @@
 
 
             while (node != null && node.next != null)
-            {
-                //var nextDistinctNode = node.next;
-                //while (nextDistinctNode != null &&
-                //    node.value == nextDistinctNode.value)
-                //{
-
-                //}
+            {             
 
                 if (node.value == node.next.value)
                 {
